@@ -1,0 +1,57 @@
+
+:root {
+    --box-shadow:rgba(0, 0, 0, 0.1);
+    --color-h1:#333;
+    --border-color-th-td:#ddd;
+    --background-th: #f4f4f4;
+    --input-color: #ccc;
+    --button-color: #007BFF;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px var(--box-shadow);
+  }
+  h1 {
+    text-align: center;
+    color: var(--color-h1);
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  th, td {
+    border: 1px solid  var(--border-color-th-td);
+    text-align: left;
+    padding: 8px;
+  }
+  th {
+    background-color: var(--background-th)
+  }
+  input{
+    width: 100%;
+    padding: 6px;
+    border:1px solid var(--input-color);
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  .button-container {
+    text-align: center;
+    margin-top: 20px;
+  }
+  .button {
+    background-color: var(--button-color);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
